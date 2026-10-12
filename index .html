@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Flux Codes | בוטים לדיסקורד</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&amp;display=swap">
+<script id="cfg" type="application/json">{"items":[{"id":"b0","name":"בוט ניהול","price":149,"per":"חד־פעמי","cat":"ניהול","hot":false,"feats":["באן, קיק ומיוט","לוגים מלאים","אנטי־ספאם","הרשאות לפי רולים"],"desc":"מערכת ניהול שמגינה על השרת ומחזיקה סדר בלי מאמץ.","sy":["באן, קיק, מיוט ואזהרות","לוג מלא של כל פעולה","אנטי־ספאם ואנטי־לינקים","הרשאות לפי רולים","פקודות סלאש"],"script":"u: /ban @spammer ספאם\nb: המשתמש @spammer נחסם. הסיבה: ספאם. 🔨\nu: /warn @dan שפה לא נאותה\nb: אזהרה 1/3 נרשמה ל־@dan. נשלח לוג לערוץ #mod-logs."},{"id":"b1","name":"בוט כרטיסים","price":199,"per":"חד־פעמי","cat":"קהילה","hot":true,"feats":["פאנל כרטיסים","תמלולים","קטגוריות","דירוג שירות"],"desc":"פאנל כרטיסי תמיכה מסודר, עם קטגוריות ותמלולים.","sy":["פאנל פתיחת כרטיס בלחיצה","קטגוריות וצוות מטפל","תמלול אוטומטי בסגירה","דירוג שירות","סגירה אוטומטית אחרי חוסר פעילות"],"script":"u: לחצתי על 🎫 פתיחת כרטיס\nb: נפתח כרטיס #ticket-0042. נציג יענה בקרוב.\nu: /close סיימנו, תודה!\nb: הכרטיס נסגר. התמלול נשלח אליך בהודעה פרטית. איך היה השירות? ⭐⭐⭐⭐⭐"},{"id":"b2","name":"בוט מוזיקה","price":99,"per":"חד־פעמי","cat":"מוזיקה","hot":false,"feats":["יוטיוב וספוטיפיי","תור שירים","פקודות סלאש","איכות גבוהה"],"desc":"נגן מוזיקה איכותי עם תור שירים ובקרה מלאה.","sy":["תמיכה ביוטיוב וספוטיפיי","תור שירים ולופ","פקודות סלאש","שליטה בעוצמה ואקולייזר","רשימות השמעה שמורות"],"script":"u: /play lofi beats\nb: ▶ מנגן עכשיו: Lofi Beats · 3:12\nu: /queue\nb: בתור: 1. Chill Vibes  2. Night Drive  3. Focus Mode"},{"id":"b3","name":"בוט כלכלה ורמות","price":179,"per":"חד־פעמי","cat":"קהילה","hot":false,"feats":["XP ורמות","חנות ומטבעות","לוח מובילים","פרסים אוטומטיים"],"desc":"מערכת XP, מטבעות וחנות שמעודדת פעילות בקהילה.","sy":["XP ורמות אוטומטיות","מטבעות וחנות פרסים","לוח מובילים","רולים אוטומטיים לפי רמה","אירועים ושיגורי בונוס"],"script":"u: /rank\nb: אתם ברמה 7 · 1,240 XP · מקום 3 בשרת 🏆\nu: /shop\nb: 🛒 חנות: VIP Role 500🪙 · צבע שם 200🪙 · בוסט XP 350🪙"},{"id":"b4","name":"אירוח בוט","price":25,"per":"לחודש","cat":"ניהול","hot":true,"feats":["פעיל 24/7","ניטור והתראות","עדכונים","תמיכה בעברית"],"desc":"אנחנו מריצים את הבוט שלכם בשרת יציב, אתם לא דואגים לכלום.","sy":["פעיל 24/7","ניטור והתראות","גיבויים ועדכונים","הפעלה מחדש אוטומטית","תמיכה בעברית"],"script":"u: /status\nb: 🟢 הבוט פעיל · זמינות 99.9% · השהיה 42ms\nu: /uptime\nb: פעיל ברצף 31 ימים."},{"id":"b5","name":"בוט בהתאמה אישית","price":0,"per":"לפי הצעה","cat":"הכול","hot":true,"feats":["מאפיינים לפי בקשה","עיצוב אישי","ליווי מלא","אירוח אופציונלי"],"desc":"בוט שנבנה בדיוק לפי הצרכים של הקהילה שלכם.","sy":["פיצ'רים לפי בקשה","עיצוב והודעות מותאמים","חיבור ל־API חיצוני","ליווי מלא עד המסירה","אירוח אופציונלי"],"script":"u: /הצעה בוט אירועים עם הרשמה והגרלות\nb: קיבלנו! נחזור אליכם עם תכנון, לוח זמנים והצעת מחיר. ✨"}],"phrases":["בוטים לדיסקורד","קהילה שעובדת לבד","ניהול בלי כאב ראש","בוט בדיוק כמו שחלמתם"]}</script>
+<style>
+:root{--bg:#07080f;--card:#10121f;--tx:#eef0ff;--mu:#9aa0c0;--pr:#7c5cff;--pr2:#22d3ee;--bd:#222645;--fs:100%;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f5f6ff;--card:#fff;--tx:#12142a;--mu:#555b7d;--bd:#dfe3f7}}
+:root[data-theme="light"]{--bg:#f5f6ff;--card:#fff;--tx:#12142a;--mu:#555b7d;--bd:#dfe3f7}
+html{font-size:var(--fs);scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;font-family:Heebo,Arial,sans-serif;background:var(--bg);color:var(--tx);line-height:var(--lh,1.6);overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.w{max-width:1100px;margin:0 auto;padding:0 20px}
+.btn{display:inline-block;border:0;cursor:pointer;font:700 1rem Heebo,Arial;padding:12px 26px;border-radius:12px;background:linear-gradient(135deg,var(--pr),var(--pr2));color:#fff;box-shadow:0 8px 28px #7c5cff44}
+.btn.o{background:transparent;color:var(--tx);border:1px solid var(--bd);box-shadow:none}
+:focus-visible{outline:3px solid var(--pr2);outline-offset:3px}
+/* preloader */
+#pre{position:fixed;inset:0;z-index:999;background:var(--bg);display:grid;place-items:center;transition:opacity .6s,visibility .6s}
+#pre.out{opacity:0;visibility:hidden}
+.pl{text-align:center;width:min(320px,80%)}
+.pl svg{width:110px;height:110px;animation:fl 2s ease-in-out infinite;filter:drop-shadow(0 0 24px #7c5cffaa)}
+@keyframes fl{50%{transform:translateY(-10px) scale(1.05)}}
+.pl h2{margin:14px 0 18px;letter-spacing:3px;font-weight:800}
+.pbar{height:6px;background:var(--bd);border-radius:9px;overflow:hidden}.pbar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--pr),var(--pr2));transition:width .1s}
+.pl p{color:var(--mu);margin:10px 0 0;font-weight:700}
+/* nav */
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--bd)}
+nav .w{display:flex;align-items:center;gap:20px;height:64px}
+.logo{font-weight:800;font-size:1.3rem;display:flex;align-items:center;gap:8px}.logo svg{width:30px;height:30px}
+nav .l{display:flex;gap:20px;color:var(--mu);font-weight:500}nav .s{margin-inline-start:auto}
+.hero{padding:90px 0 50px;text-align:center;position:relative}
+.hero:before{content:"";position:absolute;inset:-80px 0 auto;height:480px;background:radial-gradient(ellipse at 50% 0,#7c5cff44,transparent 70%),radial-gradient(ellipse at 80% 20%,#22d3ee22,transparent 60%);z-index:-1}
+.tag{display:inline-block;padding:6px 16px;border:1px solid var(--bd);background:var(--card);border-radius:99px;color:var(--mu);font-size:.9rem}
+h1{font-size:clamp(34px,6.4vw,64px);line-height:1.15;margin:22px auto 10px;max-width:820px;font-weight:800}
+.tw{display:block;min-height:1.2em;background:linear-gradient(135deg,var(--pr),var(--pr2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.tw:after{content:"";display:inline-block;width:4px;height:.9em;margin-inline-start:6px;background:var(--pr2);vertical-align:-.1em;animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+.hero p{max-width:620px;margin:0 auto 28px;color:var(--mu);font-size:1.15rem}
+.bt{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:50px 0 10px}
+.stat{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:20px}.stat b{display:block;font-size:2.2rem;color:var(--pr2)}.stat span{color:var(--mu)}
+section{padding:56px 0}
+h2{font-size:clamp(26px,4vw,38px);margin:0 0 8px;text-align:center;font-weight:800}
+.sub{text-align:center;color:var(--mu);margin:0 auto 32px;max-width:560px}
+.tabs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:28px}
+.chip{padding:9px 18px;border-radius:99px;border:1px solid var(--bd);background:var(--card);color:var(--tx);cursor:pointer;font:500 .9rem Heebo,Arial}.chip.on{background:var(--pr);border-color:var(--pr);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.plan{position:relative;background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:24px;display:flex;flex-direction:column;transition:transform .25s}
+.plan:hover{transform:translateY(-4px)}.plan.hot{border:2px solid var(--pr);box-shadow:0 12px 40px #7c5cff33}
+.plan .bd{position:absolute;top:-12px;inset-inline-start:20px;background:var(--pr);color:#fff;font-size:.75rem;font-weight:700;padding:3px 12px;border-radius:99px}
+.plan h3{margin:0}.pr{font-size:2.3rem;font-weight:800;margin:6px 0 14px}.pr small{font-size:.9rem;color:var(--mu);font-weight:400}
+.plan ul{list-style:none;padding:0;margin:0 0 20px;flex:1;font-size:.9rem;color:var(--mu)}
+.plan li{padding:5px 0;border-bottom:1px dashed var(--bd)}.plan li:before{content:"✓ ";color:#19c37d;font-weight:700}
+.feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.f{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:24px}.f h3{margin:0 0 6px}.f p{margin:0;color:var(--mu)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.step{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:22px}
+.step i{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--pr);color:#fff;font-style:normal;font-weight:800;margin-bottom:10px}
+details{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px 20px;margin:0 auto 10px;max-width:760px}
+summary{cursor:pointer;font-weight:700}details p{color:var(--mu);margin:10px 0 0}
+.cta{background:linear-gradient(135deg,var(--pr),#4a7bff);color:#fff;border-radius:28px;padding:48px 24px;text-align:center}.cta .btn{background:#fff;color:var(--pr);box-shadow:none}
+footer{border-top:1px solid var(--bd);padding:40px 0 30px;color:var(--mu);margin-top:40px}
+.fg{display:grid;grid-template-columns:2fr 1fr 1fr;gap:24px}.fg h4{margin:0 0 10px;color:var(--tx)}.fg a{display:block;padding:3px 0}
+.note{text-align:center;color:var(--mu);font-size:.9rem;margin-top:18px}
+/* modal */
+#ov{position:fixed;inset:0;background:#000a;display:none;place-items:center;z-index:90;padding:16px}#ov.on{display:grid}
+.md{background:var(--card);border:1px solid var(--bd);border-radius:22px;max-width:460px;width:100%;max-height:92%;overflow:auto;padding:26px}
+.md input,.md textarea{width:100%;padding:11px;border-radius:10px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);font:inherit;margin:6px 0}
+.md .btn{width:100%;margin-top:12px}.x{float:left;background:none;border:0;font-size:1.5rem;color:var(--mu);cursor:pointer}
+/* cookies */
+#ck{position:fixed;inset-inline:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:80;max-width:560px;margin-inline:auto;background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:20px;box-shadow:0 20px 60px #0008;display:none}
+#ck.on{display:block}#ck h3{margin:0 0 6px}#ck p{color:var(--mu);margin:0 0 12px;font-size:.92rem}
+.ckr{display:flex;gap:8px;flex-wrap:wrap}.ckr .btn{padding:10px 18px;font-size:.9rem}
+#cks{display:none;margin:10px 0}#cks label{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--bd)}
+/* a11y */
+#ab{position:fixed;inset-inline-start:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:85;width:52px;height:52px;border-radius:50%;border:0;background:var(--pr);color:#fff;cursor:pointer;box-shadow:0 8px 24px #7c5cff77;display:grid;place-items:center}
+#ab svg{width:28px;height:28px}
+#ap{position:fixed;inset-inline-start:16px;bottom:calc(80px + env(safe-area-inset-bottom,0px));z-index:85;width:min(340px,calc(100% - 32px));background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:16px;display:none;box-shadow:0 20px 60px #0008;max-height:70vh;overflow:auto}
+#ap.on{display:block}#ap h3{margin:0 0 12px;display:flex;justify-content:space-between;align-items:center}
+.ag{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ag button{border:1px solid var(--bd);background:var(--bg);color:var(--tx);border-radius:12px;padding:12px 8px;cursor:pointer;font:600 .85rem Heebo,Arial;display:flex;flex-direction:column;gap:4px;align-items:center}
+.ag button[aria-pressed="true"]{background:var(--pr);border-color:var(--pr);color:#fff}
+.ag span{font-size:1.2rem}
+#ap .rs{width:100%;margin-top:10px}
+/* a11y modes */
+html.a-c{filter:contrast(1.35)}html.a-g{filter:grayscale(1)}html.a-i{filter:invert(1) hue-rotate(180deg)}
+html.a-l a{text-decoration:underline!important;outline:2px solid var(--pr2);outline-offset:2px}
+html.a-f body,html.a-f button,html.a-f input{font-family:Arial,Verdana,sans-serif!important;letter-spacing:.03em}
+html.a-s *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+html.a-k,html.a-k *{cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40'><path d='M4 2l26 14-11 3-4 11z' fill='black' stroke='white' stroke-width='2'/></svg>"),auto!important}
+
+/* reviews */
+.rv{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-bottom:28px}
+.r{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:20px;animation:pop .5s both}
+.r .a{display:flex;gap:10px;align-items:center;margin-bottom:8px}.r .a i{width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,var(--pr),var(--pr2));color:#fff;display:grid;place-items:center;font-style:normal;font-weight:800}
+.r em{display:block;color:var(--mu);font-size:.8rem;font-style:normal}.r p{margin:6px 0 0;color:var(--mu)}
+.stars{color:#fbbf24;letter-spacing:2px}
+.rf{max-width:560px;margin:0 auto;background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:22px}
+.rf h3{margin:0 0 10px}.rf input,.rf select,.rf textarea{width:100%;padding:11px;border-radius:10px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);font:inherit;margin:5px 0}
+.sp{display:flex;gap:4px;direction:ltr;justify-content:flex-end;margin:6px 0}
+.sp button{background:none;border:0;font-size:1.8rem;cursor:pointer;color:var(--bd);transition:transform .15s,color .15s;padding:0}
+.sp button.on{color:#fbbf24}.sp button:hover{transform:scale(1.25) rotate(-8deg)}
+/* small animations */
+@keyframes pop{from{opacity:0;transform:translateY(14px) scale(.97)}}
+@keyframes gl{50%{transform:translate(20px,14px) scale(1.08)}}
+.hero:before{animation:gl 9s ease-in-out infinite}
+.rvl{opacity:0;transform:translateY(22px);transition:opacity .6s,transform .6s}.rvl.in{opacity:1;transform:none}
+.btn{transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px);box-shadow:0 12px 32px #7c5cff66}.btn:active{transform:scale(.97)}
+.f,.step,.stat,.r{transition:transform .25s,border-color .25s}.f:hover,.step:hover,.stat:hover,.r:hover{transform:translateY(-4px);border-color:var(--pr)}
+.logo svg{transition:transform .4s}.logo:hover svg{transform:rotate(-12deg) scale(1.15)}
+
+/* menu + details */
+.hb{width:44px;height:44px;border-radius:12px;border:1px solid var(--bd);background:var(--card);cursor:pointer;display:grid;place-content:center;gap:5px;margin-inline-start:8px}
+.hb i{display:block;width:20px;height:2px;background:var(--tx);border-radius:2px;transition:transform .3s,opacity .3s}
+.hb.on i:nth-child(1){transform:translateY(7px) rotate(45deg)}.hb.on i:nth-child(2){opacity:0}.hb.on i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+#dr{position:fixed;top:0;bottom:0;inset-inline-end:0;width:min(320px,86%);z-index:70;background:var(--card);border-inline-start:1px solid var(--bd);padding:84px 18px 24px;transform:translateX(100%);transition:transform .35s;overflow:auto}
+html[dir=rtl] #dr{transform:translateX(-100%)}#dr.on,html[dir=rtl] #dr.on{transform:none}
+#dr h4{margin:0 0 10px;color:var(--mu);font-size:.85rem}
+#dr button.it{display:flex;width:100%;justify-content:space-between;align-items:center;background:none;border:1px solid var(--bd);color:var(--tx);border-radius:12px;padding:12px 14px;margin-bottom:8px;cursor:pointer;font:600 .95rem Heebo,Arial;transition:border-color .2s,transform .2s}
+#dr button.it:hover{border-color:var(--pr);transform:translateX(4px)}
+#dm{position:fixed;inset:0;background:#000b;display:none;place-items:center;z-index:95;padding:14px}#dm.on{display:grid}
+.dc{background:var(--card);border:1px solid var(--bd);border-radius:22px;max-width:860px;width:100%;max-height:94%;overflow:auto;padding:22px;animation:pop .35s both}
+.dg{display:grid;grid-template-columns:1fr 1.1fr;gap:20px;margin-top:10px}
+.dc ul{list-style:none;padding:0;margin:10px 0;font-size:.92rem}.dc li{padding:6px 0;border-bottom:1px dashed var(--bd);color:var(--mu)}.dc li:before{content:"✓ ";color:#19c37d;font-weight:700}
+.ds{background:#313338;color:#dbdee1;border-radius:14px;overflow:hidden;direction:ltr;text-align:left;font:14px Arial,sans-serif;display:flex;flex-direction:column;min-height:300px}
+.dh{background:#2b2d31;padding:10px 14px;font-weight:700;border-bottom:1px solid #1e1f22}
+.dbody{padding:12px 14px;flex:1;display:flex;flex-direction:column;gap:12px}
+.dm{display:flex;gap:10px;animation:pop .35s both}.dm .av{width:34px;height:34px;border-radius:50%;flex:none;display:grid;place-items:center;font-weight:700;color:#fff}
+.dm b{font-size:.95rem}.dm .bt2{background:#5865f2;color:#fff;font-size:10px;padding:1px 5px;border-radius:4px;margin-left:5px}
+.dm .em{border-left:4px solid #5865f2;background:#2b2d31;padding:8px 10px;border-radius:4px;margin-top:4px}
+.ty span{display:inline-block;width:6px;height:6px;margin:0 2px;border-radius:50%;background:#949ba4;animation:bl .9s infinite}.ty span:nth-child(2){animation-delay:.2s}.ty span:nth-child(3){animation-delay:.4s}
+.dn{background:#383a40;margin:0 12px 12px;padding:10px 12px;border-radius:8px;color:#949ba4}
+@media(max-width:720px){.dg{grid-template-columns:1fr}}
+
+/* admin + demo upgrade */
+#adm{position:fixed;inset:0;z-index:99;background:#000b;display:none;place-items:center;padding:12px}#adm.on{display:grid}
+.ac{background:var(--card);border:1px solid var(--bd);border-radius:22px;width:min(980px,100%);max-height:96%;overflow:auto;padding:20px}
+.ah{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.ah h3{margin:0}
+.ab{display:grid;grid-template-columns:230px 1fr;gap:18px}
+.al button{display:block;width:100%;text-align:start;margin-bottom:6px;padding:10px 12px;border-radius:10px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);cursor:pointer;font:600 .9rem Heebo,Arial}.al button.on{border-color:var(--pr);background:color-mix(in srgb,var(--pr) 18%,var(--bg))}
+.af label{display:block;font-weight:700;font-size:.85rem;margin:10px 0 3px}
+.af input,.af textarea,.af select{width:100%;padding:9px;border-radius:9px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);font:inherit}
+.af .r2{display:grid;grid-template-columns:1fr 1fr;gap:10px}.af small{color:var(--mu);display:block;margin-top:3px}
+.af textarea{font-family:Consolas,monospace;font-size:.85rem}
+.sl{background:#3c4270;color:#c9cdfb;border-radius:4px;padding:1px 6px;font-weight:600}
+.dm .em b{display:block;margin-bottom:3px}.brow{display:flex;gap:8px;flex-wrap:wrap;margin-top:2px}
+.dbt{background:#4e5058;color:#fff;padding:6px 14px;border-radius:6px;font-size:13px;font-weight:600}.dbt:first-child{background:#5865f2}
+.dm .dim{color:#949ba4;font-size:12px}
+@media(max-width:720px){.ab{grid-template-columns:1fr}}
+.r{position:relative}.rd{position:absolute;top:10px;inset-inline-end:10px;border:1px solid var(--bd);background:var(--bg);border-radius:8px;width:32px;height:32px;cursor:pointer;opacity:.75;transition:opacity .2s,transform .2s}.rd:hover{opacity:1;transform:scale(1.1)}
+@media(max-width:720px){nav .l{display:none}.stats,.steps,.fg{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7c5cff"></stop><stop offset="1" stop-color="#22d3ee"></stop></linearGradient>
+<symbol id="lo" viewBox="0 0 100 100"><path d="M58 6 22 54h24l-6 40 38-50H54z" fill="url(#lg)"></path></symbol></defs></svg>
+
+<div id="pre" role="status" aria-live="polite"><div class="pl"><svg><use href="#lo"></use></svg><h2>FLUX CODES</h2><div class="pbar"><i id="pi"></i></div><p id="pp">0%</p></div></div>
+
+<a href="#main" style="position:absolute;inset-inline-start:-999px" onfocus="this.style.insetInlineStart='8px'" onblur="this.style.insetInlineStart='-999px'">דלג לתוכן</a>
+<nav><div class="w"><a class="logo" href="#"><svg><use href="#lo"></use></svg>Flux Codes</a>
+<div class="l"><a href="#bots">הבוטים</a><a href="#how">איך זה עובד</a><a href="#rev">ביקורות</a><a href="#faq">שאלות</a></div>
+<div class="s"><button class="btn" style="padding:8px 18px" onclick="openM()">הזמנה מהירה</button><button class="hb" id="hb" aria-label="תפריט" aria-expanded="false" onclick="drT()"><i></i><i></i><i></i></button></div></div></nav>
+<aside id="dr" aria-label="תפריט בוטים"><h4>בוטים והדגמות חיות</h4><div id="dl"></div><h4 style="margin-top:18px">ניווט</h4><button class="it" onclick="drT();location.hash='#how'">איך זה עובד</button><button class="it" onclick="drT();location.hash='#rev'">ביקורות</button><button class="it" onclick="drT();location.hash='#faq'">שאלות נפוצות</button></aside>
+
+<main id="main">
+<header class="hero"><div class="w">
+<span class="tag">Flux Codes · בוטים לדיסקורד בהתאמה אישית</span>
+<h1>בונים לכם<span class="tw" id="tw" aria-live="off"></span></h1>
+<p>בוטים מהירים, יציבים ומעוצבים לקהילה שלכם: ניהול, כרטיסים, מוזיקה, כלכלה ועוד. עם תמיכה אנושית בעברית וקוד נקי.</p>
+<div class="bt"><a href="#bots" class="btn">לחנות הבוטים</a><button class="btn o" onclick="openM()">בוט בהתאמה אישית</button></div>
+<div class="stats"><div class="stat"><b data-n="120">+0</b><span>בוטים שנמסרו</span></div><div class="stat"><b data-n="99">0%</b><span>זמינות</span></div><div class="stat"><b data-n="300">+0</b><span>שרתי דיסקורד מרוצים</span></div></div>
+</div></header>
+
+<section id="bots"><div class="w">
+<h2>חנות הבוטים</h2><p class="sub">בחרו בוט מוכן או הזמינו בוט שנבנה בדיוק בשבילכם</p>
+<div class="tabs" id="tabs"><button class="chip on">הכול</button><button class="chip">ניהול</button><button class="chip">קהילה</button><button class="chip">מוזיקה</button></div>
+<div class="grid" id="pg"></div>
+<p class="note">המחירים חד־פעמיים או חודשיים לפי המצוין. אפשר לבקש הדגמה לפני רכישה.</p>
+</div></section>
+
+<section id="how"><div class="w"><h2>איך זה עובד</h2><p class="sub">שלושה צעדים ויש לכם בוט בשרת</p>
+<div class="steps"><div class="step"><i>1</i>בוחרים בוט מהחנות או מתארים לנו מה צריך.</div><div class="step"><i>2</i>משלמים ומקבלים הדגמה מהירה ועדכונים לאורך הדרך.</div><div class="step"><i>3</i>אנחנו מתקינים ומריצים, אתם נהנים מבוט פעיל 24/7.</div></div></div></section>
+
+<section><div class="w"><h2>למה Flux Codes?</h2><p class="sub">&nbsp;</p>
+<div class="feats"><div class="f"><h3>קוד נקי ומהיר</h3><p>בנוי בצורה מסודרת ואמינה, עם תחזוקה ועדכונים.</p></div><div class="f"><h3>תמיכה בעברית</h3><p>פונים ומקבלים תשובה מאדם אמיתי, לא מבוט.</p></div><div class="f"><h3>התאמה אישית מלאה</h3><p>צבעים, פקודות, הודעות ופיצ'רים לפי הקהילה שלכם.</p></div></div></div></section>
+
+<section id="rev"><div class="w rvl"><h2>מה הלקוחות אומרים</h2><p class="sub">ביקורות של לקוחות שקנו אצלנו. קנית בוט? אפשר להוסיף ביקורת והיא תופיע מיד.</p>
+<div class="rv" id="rv"></div>
+<div class="rf"><h3>הוסיפו ביקורת</h3>
+<input id="rn" placeholder="שם" maxlength="30" aria-label="שם">
+<select id="rb" aria-label="איזה בוט קנית"><option>בוט ניהול</option><option>בוט כרטיסים</option><option>בוט מוזיקה</option><option>בוט כלכלה ורמות</option><option>בוט בהתאמה אישית</option></select>
+<div class="sp" id="sp" role="radiogroup" aria-label="דירוג"></div>
+<textarea id="rt" rows="3" maxlength="300" placeholder="איך היה השירות?" aria-label="הביקורת"></textarea>
+<button class="btn" style="width:100%;margin-top:8px" onclick="addR()">פרסום ביקורת</button><p id="rm" class="note" style="margin:8px 0 0"></p></div>
+</div></section>
+
+<section id="faq"><div class="w"><h2>שאלות נפוצות</h2><p class="sub">&nbsp;</p>
+<details><summary>כמה זמן לוקח לקבל בוט?</summary><p>בוט מוכן מותקן בדרך כלל תוך זמן קצר. בוט בהתאמה אישית נקבע לפי היקף העבודה.</p></details>
+<details><summary>האם הבוט רץ אצלכם?</summary><p>כן, אפשר לקבל אירוח מלא כך שהבוט פעיל 24/7 בלי שתדאגו לתשתית.</p></details>
+<details><summary>אפשר לבקש שינויים אחרי המסירה?</summary><p>בהחלט. אפשר להזמין עדכונים ופיצ'רים נוספים בכל שלב.</p></details>
+<details><summary>איך משלמים?</summary><p>מעבירים פרטים בטופס ונחזור אליכם עם אפשרויות התשלום.</p></details></div></section>
+
+<section><div class="w"><div class="cta"><h2>מוכנים לבוט הבא של הקהילה?</h2><p>ספרו לנו מה אתם צריכים ונחזור אליכם.</p><button class="btn" onclick="openM()">בואו נתחיל</button></div></div></section>
+</main>
+
+<footer><div class="w"><div class="fg"><div><div class="logo" style="color:var(--tx)"><svg><use href="#lo"></use></svg>Flux Codes</div><p>בוטים לדיסקורד, בנויים בקוד ובאהבה.</p></div>
+<div><h4>חנות</h4><a href="#bots">בוטים</a><a href="#how">איך זה עובד</a></div><div><h4>כללי</h4><a href="#">תנאי שימוש</a><a href="#">מדיניות פרטיות</a><a href="#" onclick="ckOpen();return false">הגדרות עוגיות</a><a href="#">הצהרת נגישות</a><a href="#" id="adl" style="display:none" onclick="aOpen();return false">🔒 ניהול</a></div></div>
+<p style="margin-top:24px;font-size:.9rem">כל הזכויות שמורות ל-Flux Codes</p></div></footer>
+
+<div id="adm" role="dialog" aria-modal="true" aria-label="פאנל ניהול"><div class="ac"><div class="ah"><h3>🔒 פאנל ניהול</h3><button class="x" onclick="aClose()" aria-label="סגירה">×</button></div>
+<div class="ab"><div class="al" id="al"></div><div class="af" id="af">
+<div class="r2"><div><label>שם הבוט</label><input id="an"></div><div><label>מחיר (₪, 0 = לפי הצעה)</label><input id="apx" type="number" min="0"></div></div>
+<div class="r2"><div><label>סוג חיוב</label><input id="apr" placeholder="חד־פעמי / לחודש"></div><div><label>קטגוריה</label><select id="ac"><option>ניהול</option><option>קהילה</option><option>מוזיקה</option><option>הכול</option></select></div></div>
+<label><input type="checkbox" id="ah" style="width:auto"> תג "הנמכר ביותר"</label>
+<label>תיאור</label><textarea id="ad" rows="2"></textarea>
+<label>מה כלול בכרטיס (שורה לכל פריט)</label><textarea id="af2" rows="4"></textarea>
+<label>"מה יש במערכת" בחלון הפרטים (שורה לכל פריט)</label><textarea id="as" rows="4"></textarea>
+<label>תסריט ההדגמה החיה</label><textarea id="asc" rows="7"></textarea>
+<small>כל שורה: <code>u: /פקודה ארגומנטים</code> הודעת משתמש · <code>b: כותרת :: שורה ראשונה ;; שורה שנייה</code> תשובת הבוט (אפשר בלי כותרת) · <code>bt: כפתור1|כפתור2</code> שורת כפתורים</small>
+<label>ניסוחי הכותרת הראשית (שורה לכל ניסוח)</label><textarea id="aph" rows="3"></textarea>
+<div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap"><button class="btn" onclick="aSave()">שמירה ופרסום</button><button class="btn o" onclick="aAdd()">+ בוט חדש</button><button class="btn o" onclick="aDel()">מחיקת הבוט</button></div><p id="am" class="note" style="text-align:start"></p></div></div></div></div>
+<div id="dm" onclick="if(event.target===this)closeD()" role="dialog" aria-modal="true"><div class="dc"><button class="x" onclick="closeD()" aria-label="סגירה">×</button><h3 id="dt" style="margin:0"></h3><p id="dd" style="color:var(--mu);margin:6px 0 0"></p><div class="dg"><div><b>מה יש במערכת</b><ul id="dsy"></ul><button class="btn" id="dbuy" style="width:100%">להזמנה</button> <button class="btn o" style="width:100%;margin-top:8px" onclick="runD()">הפעלה מחדש של ההדגמה</button></div><div class="ds"><div class="dh"># הדגמה חיה</div><div class="dbody" id="dbody"></div><div class="dn">שלחו הודעה ב־#general</div></div></div></div></div>
+<div id="ov" onclick="if(event.target===this)closeM()" role="dialog" aria-modal="true" aria-labelledby="mt"><div class="md"><button class="x" onclick="closeM()" aria-label="סגירה">×</button>
+<h3 id="mt" style="margin:4px 0">הזמנה מהירה</h3><div id="fm"><p id="mb" style="color:var(--mu);margin:0 0 8px">השאירו פרטים ונחזור אליכם.</p>
+<input placeholder="שם" aria-label="שם"><input placeholder="טלפון או דיסקורד" aria-label="יצירת קשר"><textarea rows="3" placeholder="מה הבוט צריך לעשות?" aria-label="תיאור"></textarea>
+<button class="btn" onclick="send()">שלחו לי</button></div></div></div>
+
+<div id="ck" role="dialog" aria-label="עוגיות"><h3>🍪 אנחנו משתמשים בעוגיות</h3><p>עוגיות חיוניות מפעילות את האתר. עוגיות העדפות ונתונים סטטיסטיים עוזרים לנו לשפר. אפשר לבחור בעצמכם ולשנות בכל עת.</p>
+<div id="cks"><label>חיוניות <input type="checkbox" checked="" disabled=""></label><label>העדפות <input type="checkbox" id="c1"></label><label>סטטיסטיקה <input type="checkbox" id="c2"></label></div>
+<div class="ckr"><button class="btn" onclick="ckSave('all')">אישור הכול</button><button class="btn o" onclick="ckSave('min')">רק חיוניות</button><button class="btn o" id="ckm" onclick="ckMore()">התאמה אישית</button></div></div>
+
+<button id="ab" aria-label="תפריט נגישות" aria-expanded="false" onclick="aT()"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="4" r="2"></circle><path d="M4 8l8 1 8-1v2l-6 1v3l2 7h-2l-2-6-2 6H8l2-7v-3L4 10z"></path></svg></button>
+<div id="ap" role="dialog" aria-label="תפריט נגישות"><h3>נגישות <button class="x" onclick="aT()" aria-label="סגירה">×</button></h3>
+<div class="ag">
+<button data-a="up"><span>A+</span>הגדלת טקסט</button><button data-a="dn"><span>A−</span>הקטנת טקסט</button>
+<button data-a="a-c" aria-pressed="false"><span>◐</span>ניגודיות גבוהה</button><button data-a="a-i" aria-pressed="false"><span>◑</span>היפוך צבעים</button>
+<button data-a="a-g" aria-pressed="false"><span>▨</span>גווני אפור</button><button data-a="a-l" aria-pressed="false"><span>🔗</span>הדגשת קישורים</button>
+<button data-a="a-f" aria-pressed="false"><span>Aa</span>גופן קריא</button><button data-a="a-s" aria-pressed="false"><span>⏸</span>עצירת אנימציות</button>
+<button data-a="a-k" aria-pressed="false"><span>⬉</span>סמן גדול</button><button data-a="lh" aria-pressed="false"><span>≣</span>ריווח שורות</button></div>
+<button class="btn o rs" onclick="aR()">איפוס הגדרות</button></div>
+
+<script>
+var SRC="<!DOCTYPE html>\n"+document.documentElement.outerHTML;
+var $=function(i){return document.getElementById(i)},R=document.documentElement;
+function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);v===null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){return null}}
+/* preloader */
+(function(){var p=0,t0=Date.now(),D=3200;var id=setInterval(function(){var e=(Date.now()-t0)/D;p=Math.min(100,Math.round(100*(1-Math.pow(1-Math.min(e,1),2))));$("pi").style.width=p+"%";$("pp").textContent=p+"%";if(e>=1){clearInterval(id);setTimeout(function(){$("pre").classList.add("out");setTimeout(function(){$("pre").remove();if(!ls("fx-ck"))$("ck").classList.add("on")},600)},250)}},40)})();
+/* rewriting headline */
+var W=["בוטים לדיסקורד","קהילה שעובדת לבד","ניהול בלי כאב ראש","בוט בדיוק כמו שחלמתם"],wi=0,ci=0,del=0;
+function ty(){var s=W[wi];if(!del){ci++;$("tw").textContent=s.slice(0,ci);if(ci==s.length){del=1;return setTimeout(ty,1800)}setTimeout(ty,75)}else{ci--;$("tw").textContent=s.slice(0,ci);if(!ci){del=0;wi=(wi+1)%W.length;return setTimeout(ty,350)}setTimeout(ty,35)}}
+setTimeout(ty,3600);
+/* products */
+var B=[["בוט ניהול",149,"ניהול","חד־פעמי",["באן, קיק ומיוט","לוגים מלאים","אנטי־ספאם","הרשאות לפי רולים"]],["בוט כרטיסים",199,"קהילה","חד־פעמי",["פאנל כרטיסים","תמלולים","קטגוריות","דירוג שירות"],1],["בוט מוזיקה",99,"מוזיקה","חד־פעמי",["יוטיוב וספוטיפיי","תור שירים","פקודות סלאש","איכות גבוהה"]],["בוט כלכלה ורמות",179,"קהילה","חד־פעמי",["XP ורמות","חנות ומטבעות","לוח מובילים","פרסים אוטומטיים"]],["אירוח בוט",25,"ניהול","לחודש",["פעיל 24/7","ניטור והתראות","עדכונים","תמיכה בעברית"]],["בוט בהתאמה אישית",0,"הכול","לפי הצעה",["מאפיינים לפי בקשה","עיצוב אישי","ליווי מלא","אירוח אופציונלי"]]];
+function pl(c){$("pg").innerHTML=B.filter(function(b){return c=="הכול"||b[2]==c||b[2]=="הכול"}).map(function(b){return '<div class="plan'+(b[5]?' hot':'')+'">'+(b[5]?'<span class="bd">הנמכר ביותר!</span>':'')+'<h3>'+b[0]+'</h3><div class="pr">'+(b[1]?b[1]+'₪':'הצעה')+'<small> / '+b[3]+'</small></div><ul>'+b[4].map(function(x){return'<li>'+x+'</li>'}).join("")+'</ul><button class="btn" onclick="openD(\''+b[0]+'\')">פרטים על חבילה זו</button></div>'}).join("")}
+document.querySelectorAll("#tabs .chip").forEach(function(b){b.onclick=function(){document.querySelectorAll("#tabs .chip").forEach(function(c){c.classList.remove("on")});b.classList.add("on");pl(b.textContent)}});
+function openM(n){$("mt").textContent=n?"הזמנה: "+n:"הזמנה מהירה";$("fm").style.display="";$("ov").classList.add("on")}
+function closeM(){$("ov").classList.remove("on")}
+function send(){$("fm").innerHTML='<p>תודה! קיבלנו ונחזור אליכם בקרוב.</p>'}
+document.addEventListener("keydown",function(e){if(e.key=="Escape"){closeM();$("ap").classList.remove("on")}});
+document.querySelectorAll("[data-n]").forEach(function(e){var t=+e.dataset.n,s=e.textContent,pre=s[0]=="+"?"+":"",suf=s.slice(-1)=="%"?"%":"",c=0,st=Math.ceil(t/50);setTimeout(function(){var id=setInterval(function(){c=Math.min(t,c+st);e.textContent=pre+c+suf;if(c>=t)clearInterval(id)},30)},3600)});
+/* cookies */
+function ckMore(){$("cks").style.display="block";$("ckm").textContent="שמירת בחירה";$("ckm").onclick=function(){ckSave("c")}}
+function ckOpen(){$("ck").classList.add("on")}
+function ckSave(m){var v=m=="all"?{p:1,a:1}:m=="min"?{p:0,a:0}:{p:$("c1").checked?1:0,a:$("c2").checked?1:0};ls("fx-ck",JSON.stringify(v));if(!v.p)ls("fx-a",null);$("ck").classList.remove("on")}
+/* accessibility */
+var S={fs:100,m:{}};try{S=JSON.parse(ls("fx-a"))||S}catch(e){}
+function ap(){R.style.setProperty("--fs",S.fs+"%");["a-c","a-i","a-g","a-l","a-f","a-s","a-k"].forEach(function(k){R.classList.toggle(k,!!S.m[k])});R.style.setProperty("--lh",S.m.lh?"2":"1.6");document.querySelectorAll("#ap [aria-pressed]").forEach(function(b){b.setAttribute("aria-pressed",!!S.m[b.dataset.a])})}
+function sv(){var c;try{c=JSON.parse(ls("fx-ck"))}catch(e){}if(c&&c.p)ls("fx-a",JSON.stringify(S))}
+function aT(){var o=$("ap").classList.toggle("on");$("ab").setAttribute("aria-expanded",o)}
+document.querySelectorAll("#ap [data-a]").forEach(function(b){b.onclick=function(){var a=b.dataset.a;if(a=="up")S.fs=Math.min(150,S.fs+10);else if(a=="dn")S.fs=Math.max(80,S.fs-10);else S.m[a]=!S.m[a];if(a=="a-c"&&S.m[a])S.m["a-i"]=0;if(a=="a-i"&&S.m[a])S.m["a-c"]=0;ap();sv()}});
+function aR(){S={fs:100,m:{}};ap();ls("fx-a",null)}ap();
+
+
+/* details + live demo */
+var DM={
+"בוט ניהול":{d:"מערכת ניהול שמגינה על השרת ומחזיקה סדר בלי מאמץ.",sy:["באן, קיק, מיוט ואזהרות","לוג מלא של כל פעולה","אנטי־ספאם ואנטי־לינקים","הרשאות לפי רולים","פקודות סלאש"],sc:[["u","/ban @spammer ספאם"],["b","המשתמש @spammer נחסם. הסיבה: ספאם. 🔨"],["u","/warn @dan שפה לא נאותה"],["b","אזהרה 1/3 נרשמה ל־@dan. נשלח לוג לערוץ #mod-logs."]]},
+"בוט כרטיסים":{d:"פאנל כרטיסי תמיכה מסודר, עם קטגוריות ותמלולים.",sy:["פאנל פתיחת כרטיס בלחיצה","קטגוריות וצוות מטפל","תמלול אוטומטי בסגירה","דירוג שירות","סגירה אוטומטית אחרי חוסר פעילות"],sc:[["u","לחצתי על 🎫 פתיחת כרטיס"],["b","נפתח כרטיס #ticket-0042. נציג יענה בקרוב."],["u","/close סיימנו, תודה!"],["b","הכרטיס נסגר. התמלול נשלח אליך בהודעה פרטית. איך היה השירות? ⭐⭐⭐⭐⭐"]]},
+"בוט מוזיקה":{d:"נגן מוזיקה איכותי עם תור שירים ובקרה מלאה.",sy:["תמיכה ביוטיוב וספוטיפיי","תור שירים ולופ","פקודות סלאש","שליטה בעוצמה ואקולייזר","רשימות השמעה שמורות"],sc:[["u","/play lofi beats"],["b","▶ מנגן עכשיו: Lofi Beats · 3:12"],["u","/queue"],["b","בתור: 1. Chill Vibes  2. Night Drive  3. Focus Mode"]]},
+"בוט כלכלה ורמות":{d:"מערכת XP, מטבעות וחנות שמעודדת פעילות בקהילה.",sy:["XP ורמות אוטומטיות","מטבעות וחנות פרסים","לוח מובילים","רולים אוטומטיים לפי רמה","אירועים ושיגורי בונוס"],sc:[["u","/rank"],["b","אתם ברמה 7 · 1,240 XP · מקום 3 בשרת 🏆"],["u","/shop"],["b","🛒 חנות: VIP Role 500🪙 · צבע שם 200🪙 · בוסט XP 350🪙"]]},
+"אירוח בוט":{d:"אנחנו מריצים את הבוט שלכם בשרת יציב, אתם לא דואגים לכלום.",sy:["פעיל 24/7","ניטור והתראות","גיבויים ועדכונים","הפעלה מחדש אוטומטית","תמיכה בעברית"],sc:[["u","/status"],["b","🟢 הבוט פעיל · זמינות 99.9% · השהיה 42ms"],["u","/uptime"],["b","פעיל ברצף 31 ימים."]]},
+"בוט בהתאמה אישית":{d:"בוט שנבנה בדיוק לפי הצרכים של הקהילה שלכם.",sy:["פיצ'רים לפי בקשה","עיצוב והודעות מותאמים","חיבור ל־API חיצוני","ליווי מלא עד המסירה","אירוח אופציונלי"],sc:[["u","/הצעה בוט אירועים עם הרשמה והגרלות"],["b","קיבלנו! נחזור אליכם עם תכנון, לוח זמנים והצעת מחיר. ✨"]]}};
+var dTok=0,dCur="";
+function drT(){var o=$("dr").classList.toggle("on");$("hb").classList.toggle("on",o);$("hb").setAttribute("aria-expanded",o)}
+function openD(k){dCur=k;var m=DM[k];$("dt").textContent=k;$("dd").textContent=m.d;$("dsy").innerHTML=m.sy.map(function(x){return "<li>"+esc(x)+"</li>"}).join("");$("dbuy").onclick=function(){closeD();openM(k)};$("dm").classList.add("on");runD()}
+function closeD(){dTok++;$("dm").classList.remove("on")}
+function runD(){var m=DM[dCur],t=++dTok,B=$("dbody");B.innerHTML="";var d=500;
+m.sc.forEach(function(x){var u=x[0]=="u";setTimeout(function(){if(t!=dTok)return;if(!u){var ty=document.createElement("div");ty.className="dm ty";ty.innerHTML='<div class="av" style="background:#5865f2">F</div><div><span></span><span></span><span></span></div>';B.appendChild(ty);setTimeout(function(){if(t==dTok)ty.remove()},900)}},d);d+=u?0:0;
+var at=d+(u?0:1000);setTimeout(function(){if(t!=dTok)return;var e=document.createElement("div");e.className="dm";e.innerHTML='<div class="av" style="background:'+(u?"#23a559":"#5865f2")+'">'+(u?"U":"F")+'</div><div><b>'+(u?"אתם":"Flux Bot")+(u?"":'<span class="bt2">BOT</span>')+'</b><div'+(u?"":' class="em"')+'>'+esc(x[1])+'</div></div>';B.appendChild(e)},at);d=at+700})}
+document.addEventListener("keydown",function(e){if(e.key=="Escape"){closeD();$("dr").classList.remove("on");$("hb").classList.remove("on")}});
+/* reviews */
+var RV=[{n:"דניאל",b:"בוט כרטיסים",s:5,t:"הבוט עלה תוך זמן קצר ועובד חלק. התמיכה ענתה מהר ועזרה בכל התאמה.",d:1},{n:"נועה",b:"בוט ניהול",s:5,t:"סוף סוף שרת מסודר. הלוגים והאנטי־ספאם חסכו לנו המון עבודה.",d:2},{n:"יובל",b:"בוט מוזיקה",s:4,t:"איכות סאונד מצוינת ופקודות פשוטות. ממליץ.",d:3}];
+var UID="",mine=[],shared=[],rs=5,rdb=null;
+try{mine=JSON.parse(ls("fx-rv")||"[]")}catch(e){}
+function esc(x){var d=document.createElement("div");d.textContent=x;return d.innerHTML}
+function drawR(){var all=shared.concat(mine.filter(function(m){return !shared.some(function(x){return x.id==m.id})})).sort(function(a,b){return (b.d||0)-(a.d||0)});if(!all.length)all=RV;
+$("rv").innerHTML=all.slice(0,12).map(function(r,i){return '<div class="r" style="animation-delay:'+i*60+'ms">'+(ACAN&&r.id?'<button class="rd" onclick="delR(\''+r.id+'\')" aria-label="מחיקת ביקורת" title="מחיקת ביקורת">🗑</button>':'')+'<div class="a"><i>'+esc((r.n||"?")[0])+'</i><div><b>'+esc(r.n)+'</b><em>רכש: '+esc(r.b)+'</em></div></div><div class="stars" aria-label="'+r.s+' כוכבים">'+"★".repeat(r.s)+"☆".repeat(5-r.s)+'</div><p>'+esc(r.t)+'</p></div>'}).join("")}
+function drawS(){$("sp").innerHTML=[5,4,3,2,1].map(function(i){return '<button type="button" class="'+(i<=rs?"on":"")+'" onclick="rs='+i+';drawS()" aria-label="'+i+' כוכבים">★</button>'}).join("")}
+function addR(){var n=$("rn").value.trim(),t=$("rt").value.trim();if(!n||t.length<5){$("rm").textContent="נא למלא שם וביקורת קצרה.";return}
+var r={id:UID||("r"+Date.now()),n:n,b:$("rb").value,s:rs,t:t,d:Date.now()};mine=mine.filter(function(m){return m.id!=r.id});mine.unshift(r);ls("fx-rv",JSON.stringify(mine.slice(0,20)));
+if(rdb&&UID)rdb.collection("reviews").doc(r.id).set(r).catch(function(){});
+drawR();$("rn").value=$("rt").value="";$("rm").textContent="תודה! הביקורת פורסמה.";setTimeout(function(){$("rm").textContent=""},3000)}
+drawS();drawR();
+(async function(){try{var u=window.claude&&await window.claude.use("db");if(!u)return;rdb=u;u.collection("reviews").orderBy("d","desc").limit(30).onSnapshot(function(sn){shared=sn.docs.map(function(d){var x=d.data();x.id=d.id;return x});drawR()},function(){})}catch(e){}})();
+/* scroll reveal */
+(function(){var els=document.querySelectorAll("section .w:not(.rvl)");els.forEach(function(e){e.classList.add("rvl")});if(!("IntersectionObserver"in window)){document.querySelectorAll(".rvl").forEach(function(e){e.classList.add("in")});return}
+var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}})},{threshold:.08});document.querySelectorAll(".rvl").forEach(function(e){io.observe(e)})})();
+
+/* ===== catalog + admin ===== */
+var ADMINS=["smtwbydw@gmail.com"],CAT=[],adb=null,ai=0,ACAN=false;
+function mkCat(){return B.map(function(b,i){var m=DM[b[0]]||{d:"",sy:[],sc:[]};return{id:"b"+i,name:b[0],price:b[1],per:b[3],cat:b[2],hot:!!b[5],feats:b[4],desc:m.d,sy:m.sy,script:m.sc.map(function(x){return x[0]+": "+x[1]}).join("\n")}})}
+function pl(c){$("pg").innerHTML=CAT.filter(function(x){return c=="הכול"||x.cat==c||x.cat=="הכול"}).map(function(x){return '<div class="plan'+(x.hot?' hot':'')+'">'+(x.hot?'<span class="bd">הנמכר ביותר!</span>':'')+'<h3>'+esc(x.name)+'</h3><div class="pr">'+(x.price?esc(x.price)+'₪':'הצעה')+'<small> / '+esc(x.per)+'</small></div><ul>'+x.feats.map(function(f){return'<li>'+esc(f)+'</li>'}).join("")+'</ul><button class="btn" onclick="openD(\''+x.id+'\')">פרטים על חבילה זו</button></div>'}).join("")}
+function drawDL(){$("dl").innerHTML=CAT.map(function(x){return '<button class="it" data-k="'+x.id+'">'+esc(x.name)+'<span>←</span></button>'}).join("");document.querySelectorAll("#dl .it").forEach(function(b){b.onclick=function(){drT();openD(b.dataset.k)}})}
+function openD(id){var m=CAT.filter(function(x){return x.id==id})[0];if(!m)return;dCur=m;$("dt").textContent=m.name;$("dd").textContent=m.desc;$("dsy").innerHTML=m.sy.map(function(x){return "<li>"+esc(x)+"</li>"}).join("");$("dbuy").onclick=function(){closeD();openM(m.name)};$("dm").classList.add("on");runD()}
+function parseS(t){return String(t||"").split("\n").map(function(l){var m=l.match(/^\s*(u|bt|b)\s*:\s*(.*)$/i);return m?{k:m[1].toLowerCase(),t:m[2]}:null}).filter(Boolean)}
+function rdr(x,bn){if(x.k=="u"){var t=x.t.trim(),c='';if(t[0]=="/"){var q=t.split(" ");c='<div class="dim">אתם השתמשו ב־<span class="sl">'+esc(q[0])+'</span></div>'+(q.length>1?'<div>'+esc(q.slice(1).join(" "))+'</div>':'')}else c='<div>'+esc(t)+'</div>';return '<div class="av" style="background:#23a559">U</div><div><b>אתם</b>'+c+'</div>'}
+if(x.k=="bt")return '<div class="av" style="visibility:hidden"></div><div class="brow">'+x.t.split("|").map(function(l){return '<span class="dbt">'+esc(l.trim())+'</span>'}).join("")+'</div>';
+var p=x.t.split("::"),ti=p.length>1?p[0].trim():"",bd=(p.length>1?p.slice(1).join("::"):x.t).trim();
+return '<div class="av" style="background:#5865f2">'+esc((bn||"B")[0])+'</div><div><b>'+esc(bn)+'<span class="bt2">BOT</span></b><div class="em">'+(ti?'<b>'+esc(ti)+'</b>':'')+esc(bd).replace(/;;/g,"<br>")+'</div></div>'}
+function runD(){var t=++dTok,B2=$("dbody"),d=400;B2.innerHTML="";var bn=dCur.name;
+parseS(dCur.script).forEach(function(x){var inst=x.k!="b",at=d+(inst?0:900);
+if(!inst)setTimeout(function(){if(t!=dTok)return;var ty=document.createElement("div");ty.className="dm ty";ty.innerHTML='<div class="av" style="background:#5865f2">'+esc(bn[0])+'</div><div><span></span><span></span><span></span></div>';B2.appendChild(ty);setTimeout(function(){ty.remove()},880)},d);
+setTimeout(function(){if(t!=dTok)return;var e=document.createElement("div");e.className="dm";e.innerHTML=rdr(x,bn);B2.appendChild(e)},at);d=at+800})}
+function rerender(){var on=document.querySelector("#tabs .chip.on");pl(on?on.textContent:"הכול");drawDL();$("rb").innerHTML=CAT.map(function(x){return '<option>'+esc(x.name)+'</option>'}).join("");wi=0;ci=0;del=0}
+var cfg=null;try{cfg=JSON.parse($("cfg").textContent)}catch(e){}
+CAT=(cfg&&cfg.items&&cfg.items.length)?cfg.items:mkCat();if(cfg&&cfg.phrases&&cfg.phrases.length)W=cfg.phrases;rerender();
+(async function(){try{var us=window.claude&&await window.claude.use("user");if(!us)return;var me=await us.me();UID=String(me.id||"");var em=String(me.email||"").toLowerCase();var ce=us.canEdit?await us.canEdit():false;if(ADMINS.indexOf(em)>-1||ce){ACAN=true;$("adl").style.display="";drawR()}}catch(e){}})();
+function aOpen(){if(!ACAN)return;$("adm").classList.add("on");$("aph").value=W.join("\n");aList();aFill()}
+function aClose(){$("adm").classList.remove("on")}
+function aList(){$("al").innerHTML=CAT.map(function(x,i){return '<button class="'+(i==ai?"on":"")+'" onclick="aCommit();ai='+i+';aList();aFill()">'+esc(x.name)+'</button>'}).join("")}
+function aFill(){var x=CAT[ai];if(!x)return;$("an").value=x.name;$("apx").value=x.price;$("apr").value=x.per;$("ac").value=x.cat;$("ah").checked=!!x.hot;$("ad").value=x.desc;$("af2").value=x.feats.join("\n");$("as").value=x.sy.join("\n");$("asc").value=x.script}
+function ln(id){return $(id).value.split("\n").map(function(l){return l.trim()}).filter(Boolean)}
+function aCommit(){var x=CAT[ai];if(!x)return;x.name=$("an").value.trim()||x.name;x.price=Math.max(0,+$("apx").value||0);x.per=$("apr").value.trim();x.cat=$("ac").value;x.hot=$("ah").checked;x.desc=$("ad").value.trim();x.feats=ln("af2");x.sy=ln("as");x.script=$("asc").value}
+function aAdd(){aCommit();CAT.push({id:"n"+Date.now(),name:"בוט חדש",price:0,per:"חד־פעמי",cat:"קהילה",hot:false,feats:["פיצ'ר ראשון"],desc:"",sy:[],script:"u: /help\nb: עזרה :: רשימת הפקודות"});ai=CAT.length-1;aList();aFill()}
+function aDel(){if(CAT.length<2||!confirm("למחוק את הבוט?"))return;CAT.splice(ai,1);ai=0;aList();aFill()}
+async function aSave(){aCommit();var ph=ln("aph");if(ph.length)W=ph;rerender();aList();
+try{var a=await window.claude.use("artifact");if(!a){$("am").textContent="אין הרשאת פרסום. התחברו עם חשבון שמורשה לערוך את האתר.";return}
+var data=JSON.stringify({items:CAT,phrases:W}).replace(/</g,"\\u003c");
+var html=SRC.replace(/(<script id="cfg" type="application\/json">)[\s\S]*?(<\/script>)/,function(m,a1,a2){return a1+data+a2});
+$("am").textContent="מפרסם...";await a.publish(html);$("am").textContent="פורסם ✓"}catch(e){$("am").textContent="הפרסום נכשל: "+((e&&(e.code||e.message))||"אין הרשאה")}}
+
+function delR(id){if(!ACAN||!confirm("למחוק את הביקורת?"))return;
+mine=mine.filter(function(m){return m.id!=id});ls("fx-rv",JSON.stringify(mine));shared=shared.filter(function(x){return x.id!=id});drawR();
+if(rdb)rdb.collection("reviews").doc(id).delete().catch(function(){alert("המחיקה נדחתה: אין הרשאת ניהול.")})}
+document.addEventListener("keydown",function(e){if(e.key=="Escape")aClose()});
+</script></body></html>
